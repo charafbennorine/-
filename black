@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Earn Money Online</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Tahoma', sans-serif;
+      background: linear-gradient(to bottom, #ffeb3b, #fff);
+      color: #002b5b;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .ticker {
+      background-color: #002b5b;
+      color: #fff;
+      padding: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      font-size: 0.95em;
+    }
+
+    .ticker-content {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll 30s linear infinite;
+    }
+
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    h1 {
+      font-size: 2.2em;
+      color: #002b5b;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+      line-height: 1.8;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #002b5b;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.1em;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const messages = [
+        "Olivia made $210 just 10 minutes ago",
+        "Liam earned $340 two hours ago",
+        "Emma received $280 30 minutes ago",
+        "Noah hit $420 milestone today",
+        "Ava gained $190 within the last hour",
+        "William withdrew $360 this morning",
+        "Isabella made $220 just now",
+        "James earned $400 in 3 hours",
+        "Charlotte got $310 less than an hour ago",
+        "Benjamin made $290 15 minutes ago",
+        "Amelia earned $350 a few hours ago",
+        "Lucas received $240 20 minutes ago",
+        "Mia got $180 just 5 minutes ago",
+        "Henry earned $320 this afternoon",
+        "Harper made $275 yesterday evening",
+        "Alexander withdrew $410 two hours ago",
+        "Evelyn earned $300 50 minutes ago",
+        "Daniel made $330 in one hour",
+        "Sofia hit $380 today",
+        "Matthew got $295 half an hour ago",
+        "Ella received $260 40 minutes ago",
+        "Jackson made $390 an hour ago",
+        "Scarlett earned $310 this morning",
+        "Sebastian received $345 yesterday",
+        "Victoria got $280 90 minutes ago",
+        "David earned $405 three hours ago",
+        "Aria just made $215",
+        "Joseph earned $360 earlier today",
+        "Grace received $295 in 45 minutes",
+        "Samuel got $330 around noon"
+      ];
+
+      function shuffle(array) {
+        let currentIndex = array.length, randomIndex;
+        while (currentIndex !== 0) {
+          randomIndex = Math.floor(Math.random() * currentIndex);
+          currentIndex--;
+          [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+        }
+        return array;
+      }
+
+      const tickerContent = document.querySelector('.ticker-content');
+      const shuffledMessages = shuffle(messages).slice(0, 10); // Show 10 random messages at a time
+      tickerContent.textContent = shuffledMessages.join(' • ');
+    });
+  </script>
+</head>
+<body>
+
+  <div class="ticker">
+    <div class="ticker-content">
+      Loading updates...
+    </div>
+  </div>
+
+  <h1>💡 How to Easily Make Money Online?</h1>
+
+  <p>Nowadays, the internet is full of endless opportunities. You can start with little or even no capital and generate extra income right from your home or phone!</p>
+
+  <p>The first step? Start from the right place ✨</p>
+
+  <a class="btn" href="https://file-unlock.com/?ec08e75">🚀 Get Started Now</a>
+
+  <footer>
+    &copy; 2025 All rights reserved.
+  </footer>
+
+</body>
+</html>
